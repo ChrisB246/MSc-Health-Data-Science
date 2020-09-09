@@ -86,9 +86,9 @@ print(loss)
 # plt.figure()
 # lw = 2
 # plt.plot(fpr[2], tpr[2], color='red',
-#          lw=lw, label='ROC curve for Logistic Regression (area = %0.0f)' % 52)
+#          lw=lw, label='ROC curve for Logistic Regression (area = %0.0f)' % roc_auc[2])
 # plt.plot(fpr_CNN[2], tpr_CNN[2], color='green',
-#          lw=lw, label='ROC curve for Pre-trained CNN (area = %0.0f)' % 81)
+#          lw=lw, label='ROC curve for Pre-trained CNN (area = %0.0f)' % roc_auc_CNN[2])
 # plt.plot([0, 1], [0, 1], color='navy', lw=lw, linestyle='--', label='')
 # ax = plt.gca()
 # ax.set_facecolor('grey')
